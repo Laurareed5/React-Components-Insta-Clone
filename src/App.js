@@ -8,7 +8,7 @@ import React from "react";
 import "./App.css";
 import PostsPage from "./components/PostsContainer/PostsPage.js";
 import SearchBar from "./components/SearchBar/SearchBarContainer.js";
-import CommentSection from "./components/CommentSection/CommentSectionContainer.js";
+
 
 // import the PostsPage and SearchBar and add them to the App
 
@@ -19,7 +19,7 @@ const App = () => {
     <div className="App">
       <SearchBar />
       <PostsPage />
-      <CommentSection />
+      
     </div>
   );
 };
